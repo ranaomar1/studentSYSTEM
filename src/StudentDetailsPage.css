@@ -1,0 +1,54 @@
+.student-details-card {
+  max-width: 620px;
+  margin-bottom: 18px;
+  padding: 20px;
+  border: 1px solid #dbe5ef;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.08);
+}
+
+.student-details-page h1 {
+  margin: 0 0 16px;
+  color: #0f766e;
+}
+
+.student-details-card p {
+  margin: 8px 0;
+  color: #334155;
+}
+
+.student-notes {
+  max-width: 620px;
+  margin-bottom: 18px;
+  padding: 20px;
+  border: 1px solid #dbe5ef;
+  border-radius: 16px;
+  background: #fafafa;
+}
+
+.student-notes h3 {
+  margin-top: 0;
+  color: #0f766e;
+}
+
+.student-notes p {
+  color: #334155;
+  line-height: 1.6;
+}
+
+.student-details-page button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #14b8a6, #0f766e);
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.student-details-page button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 20px rgba(15, 118, 110, 0.22);
+}

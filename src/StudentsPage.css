@@ -1,0 +1,61 @@
+.students-title {
+  margin: 0 0 20px;
+  color: #0f766e;
+}
+
+.students-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+.student-card {
+  border: 1px solid #dbe5ef;
+  border-radius: 16px;
+  padding: 18px;
+  background: #fff;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.student-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 32px rgba(15, 23, 42, 0.12);
+}
+
+.student-card h3 {
+  margin: 0 0 10px;
+  color: #0f172a;
+}
+
+.student-card p {
+  margin: 6px 0;
+  color: #334155;
+}
+
+.student-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.student-actions button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #0f766e;
+  color: #fff;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.student-actions button:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.04);
+}
+
+.student-actions .delete-button {
+  background-color: #dc2626;
+}
