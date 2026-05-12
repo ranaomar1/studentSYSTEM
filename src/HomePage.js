@@ -53,4 +53,4 @@ function HomePage({ totalStudents, totalSchoolYears }) {
   );
 }
 
-export default HomePage;    //routes
+export default HomePage;   
